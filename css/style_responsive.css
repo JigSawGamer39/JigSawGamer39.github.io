@@ -1,0 +1,159 @@
+@media (min-width: 992px) {
+  .collage {
+    border-radius: 200px 0 0 200px;
+    width: 90%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+  }
+  .cel1 {
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    flex-direction: row;
+  }
+  .cel2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cel3 {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+  }
+  .cel4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .cel5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+  }
+  .cel6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .cel7 {
+    display: flex;
+  }
+  .circular-progress {
+    position: relative;
+    display: flex;
+    margin: 2rem 0 2rem 0;
+  }
+}
+@media (max-width: 991px) {
+  .my_name > p {
+    font-size: 50px;
+  }
+  .collage {
+    border-radius: 130px 0 0 130px;
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+    width: 20rem;
+  }
+  .cel1 {
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    flex-direction: row;
+  }
+  .cel2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cel3 {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+  }
+  .cel4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .cel5 {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+  }
+  .cel6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem 0 3rem 0;
+  }
+  .cel7 {
+    display: flex;
+  }
+  .circular-progress {
+    position: relative;
+    display: flex;
+    margin: 2rem 0 2rem 0;
+  }
+}
+@media (max-width: 539px) {
+  .my_name > p {
+    font-size: 50px;
+  }
+  .collage {
+    border-radius: 0 130px 130px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 15rem;
+    width: 20rem;
+  }
+  .cel1 {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .cel2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cel3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cel4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .cel5 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .cel6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .cel7 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cel7 > a {
+    margin-top: 1rem;
+  }
+  .circular-progress {
+    position: relative;
+    display: flex;
+    margin: 2rem auto 2rem auto;
+  }
+}
+
+/*# sourceMappingURL=style_responsive.css.map */

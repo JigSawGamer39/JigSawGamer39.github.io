@@ -1,0 +1,393 @@
+$my_color1: #00CDAB;
+$my_color2: white;
+$my_color3: blue;
+$my_color4: black;
+
+@font-face {
+    font-family: alex-brush;
+    src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+#mi_navbar {
+    border-bottom: 1px solid $my_color2;
+    background: $my_color1;
+}
+
+#navbarSupportedContent > ul > li > a {
+    color: $my_color2;
+    font-size: large;
+}
+
+#navbarSupportedContent > ul > li > a:hover { 
+    color: $my_color3;
+}
+
+#label-junior:hover {
+    color: $my_color2;
+}
+
+.titles1 {
+    width: fit-content;
+    color: $my_color4;
+    background: $my_color2;
+    border-radius: 0 30px 30px 0;
+}
+
+.titles2 {
+    width: fit-content;
+    color: $my_color2;
+    background: $my_color1;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.titles3 {
+    width: fit-content;
+    color: $my_color4;
+    background: $my_color2;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#about_me {
+    height: 100vh; 
+}
+
+.my_name > p {
+    background: linear-gradient(to right, $my_color2 20%, $my_color1);
+    font-family: alex-brush;
+    text-shadow: 0 0 5px $my_color2;
+    color: $my_color4;
+    font-size: 80px;
+}
+
+.my_name > h2 {
+    text-shadow: 0 0 5px $my_color2;
+    color: $my_color4;
+}
+
+#imagen_fondo{
+    position: absolute;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    box-shadow: 0 0 100px #222;
+    filter: blur(5px);
+}
+
+#about_me2 {
+    height: auto;
+    background: linear-gradient(to bottom, $my_color1, $my_color2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.featured-text {
+    color: $my_color3;
+}
+
+.collage {
+    border: 2px solid $my_color3;
+    background-color: $my_color1;
+}
+
+.picture_profile {
+    display: flex;
+    margin: 0px;
+}
+
+#proyects {
+    background-color: $my_color1;
+}
+
+.my-buttons {
+    color: $my_color2;
+    background-color: $my_color1;
+}
+
+.my-buttons:hover {
+    color: $my_color2;
+    background-color: $my_color3;
+}
+
+.adaptable-text  {
+    color: $my_color4;
+}
+
+.adaptable-text2 {
+    color: $my_color3;
+    text-decoration: underline;
+}
+
+.cel7 > a {
+    color: white;
+}
+
+.cel7 > a:hover{
+    color: $my_color3;
+}
+
+.circular-progress {
+    &,
+    &:before,
+    &:after {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+    }
+
+    &:before,
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    &:before {
+        padding: 1em;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        line-height: 7rem;
+    }
+    &:after {
+        line-height: 15rem;
+    }
+}
+
+@function progress($percent) {
+    $deg: calc($percent / 100) * 180;
+    @return #{$deg}deg;
+}
+
+@mixin circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active) {
+    $progress: progress($percent);
+    transform: rotate($progress);
+    background: linear-gradient(0deg, $color 50%, $my_color4 50%);
+    opacity: $active;
+
+    &:before,
+    &:after {
+        color: $color;
+        -webkit-text-stroke: .5px $my_color4;
+    }
+    
+    &:before {
+        content: "#{$skill}";
+        background: $bgcolor content-box;
+        transform: rotate(-#{$progress});
+    }
+    &:after {
+        content: "#{$advanced}";
+        background: linear-gradient(transparent 50%, $bgcolor 50%);
+        transform: scale(1.1) rotate(-#{$progress});
+    }
+}
+
+.myprogres-c {
+    $percent: 50;
+    $skill: "C#";
+    $advanced: "INTERMEDIO";
+    $color: #4c00ff;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-php {
+    $percent: 75;
+    $skill: "PHP";
+    $advanced: "AVANZADO";
+    $color: #a200ff;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-sass {
+    $percent: 25;
+    $skill: "SASS";
+    $advanced: "PRINCIPIANTE";
+    $color: #cd0000;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-bootstrap {
+    $percent: 75;
+    $skill: "BOOTSTRAP";
+    $advanced: "AVANZADO";
+    $color: #0077ff;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-js {
+    $percent: 75;
+    $skill: "JS";
+    $advanced: "AVANZADO";
+    $color: #e5ff00;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-java {
+    $percent: 50;
+    $skill: "JAVA";
+    $advanced: "INTERMEDIO";
+    $color: #0077ff;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-phyton {
+    $percent: 25;
+    $skill: "PYTHON";
+    $advanced: "PRINCIPIANTE";
+    $color: #eeff00;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-react {
+    $percent: 10;
+    $skill: "REACT";
+    $advanced: "PROXIMAMENTE";
+    $color: #08e926;
+    $bgcolor: $my_color2;
+    $active: .2;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-windows {
+    $percent: 75;
+    $skill: "WINDOWS";
+    $advanced: "AVANZADO";
+    $color: #0988f0;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-linux {
+    $percent: 25;
+    $skill: "LINUX";
+    $advanced: "PRINCIPIANTE";
+    $color: #e908de;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-android {
+    $percent: 75;
+    $skill: "ANDROID";
+    $advanced: "AVANZADO";
+    $color: #00ff22;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-ios {
+    $percent: 10;
+    $skill: "IOS";
+    $advanced: "PROXIMAMENTE";
+    $color: #e90808;
+    $bgcolor: $my_color2;
+    $active: .2;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-spanish {
+    $percent: 75;
+    $skill: "ESPAÑOL";
+    $advanced: "AVANZADO";
+    $color: #00ffff;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+.myprogres-english {
+    $percent: 50;
+    $skill: "INGLÉS";
+    $advanced: "INTERMEDIO";
+    $color: #e98008;
+    $bgcolor: $my_color2;
+    $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+
+.darkModeSwitch {
+    height: 1.7rem;
+    width: auto;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    border: 1px solid $my_color4;
+
+    background: $my_color2;
+}
+
+.darkModeSwitch span {
+    width: 30px;
+    height: auto;
+    line-height: 30px;
+    display: block;
+    background: transparent;
+    margin: 0px;
+
+    color: $my_color4;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.darkModeSwitch::after {
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    border-radius: 100%;
+    content: "";
+
+    background: $my_color4;
+    left: 0;
+    right: 50%;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.darkModeSwitch.active {
+    background: $my_color4;
+    border: 1px solid $my_color3;
+}
+
+.darkModeSwitch.active span {
+    color: $my_color2;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.darkModeSwitch.active::after {
+    background: $my_color3;
+    left: 59%;
+    right: 0;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+

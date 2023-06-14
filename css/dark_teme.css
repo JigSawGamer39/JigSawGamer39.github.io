@@ -1,0 +1,392 @@
+@charset "UTF-8";
+body.dark {
+  background: #171615;
+}
+
+body.dark #mi_navbar {
+  background: #171615;
+}
+
+body.dark .navbar-toggler {
+  color: white;
+}
+
+body.dark #label-junior {
+  color: white;
+}
+
+body.dark #label-junior:hover {
+  color: blueviolet;
+}
+
+body.dark #navbarSupportedContent > ul > li > a:hover {
+  color: blueviolet;
+}
+
+body.dark .my_name > p {
+  background: linear-gradient(to right, white 20%, #171615);
+}
+
+body.dark .titles1 {
+  background: white;
+  color: black;
+}
+
+body.dark .titles2 {
+  background: white;
+  color: #171615;
+}
+
+body.dark .titles3 {
+  background: white;
+  color: #171615;
+}
+
+body.dark #about_me2 {
+  background: #171615;
+}
+
+body.dark .featured-text {
+  color: blueviolet;
+}
+
+body.dark .collage {
+  border: 2px solid blueviolet;
+  background: #171615;
+}
+
+body.dark .sub-title {
+  color: white;
+}
+
+body.dark #proyects {
+  background: black;
+}
+
+body.dark .my-buttons {
+  background: blueviolet;
+  color: black;
+}
+
+body.dark .modal-content {
+  background: #171615;
+}
+
+body.dark .close-modal {
+  color: white;
+}
+
+body.dark .adaptable-text {
+  color: white;
+}
+
+body.dark .adaptable-text2 {
+  color: #eeff00;
+}
+
+body.dark .cel7 > a:hover {
+  color: blueviolet;
+}
+
+.circular-progress, .circular-progress:before, .circular-progress:after {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.circular-progress:before, .circular-progress:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.circular-progress:before {
+  padding: 1em;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  line-height: 7rem;
+}
+.circular-progress:after {
+  line-height: 15rem;
+}
+
+body.dark .myprogres-c {
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #4c00ff 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-c:before, body.dark .myprogres-c:after {
+  color: #4c00ff;
+  -webkit-text-stroke: 0.5px #4c00ff;
+}
+body.dark .myprogres-c:before {
+  content: "C#";
+  background: #171615 content-box;
+  transform: rotate(-90deg);
+}
+body.dark .myprogres-c:after {
+  content: "INTERMEDIO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-90deg);
+}
+
+body.dark .myprogres-php {
+  transform: rotate(135deg);
+  background: linear-gradient(0deg, #a200ff 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-php:before, body.dark .myprogres-php:after {
+  color: #a200ff;
+  -webkit-text-stroke: 0.5px #a200ff;
+}
+body.dark .myprogres-php:before {
+  content: "PHP";
+  background: #171615 content-box;
+  transform: rotate(-135deg);
+}
+body.dark .myprogres-php:after {
+  content: "AVANZADO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+body.dark .myprogres-sass {
+  transform: rotate(45deg);
+  background: linear-gradient(0deg, #cd0000 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-sass:before, body.dark .myprogres-sass:after {
+  color: #cd0000;
+  -webkit-text-stroke: 0.5px #cd0000;
+}
+body.dark .myprogres-sass:before {
+  content: "SASS";
+  background: #171615 content-box;
+  transform: rotate(-45deg);
+}
+body.dark .myprogres-sass:after {
+  content: "PRINCIPIANTE";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-45deg);
+}
+
+body.dark .myprogres-bootstrap {
+  transform: rotate(135deg);
+  background: linear-gradient(0deg, #0077ff 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-bootstrap:before, body.dark .myprogres-bootstrap:after {
+  color: #0077ff;
+  -webkit-text-stroke: 0.5px #0077ff;
+}
+body.dark .myprogres-bootstrap:before {
+  content: "BOOTSTRAP";
+  background: #171615 content-box;
+  transform: rotate(-135deg);
+}
+body.dark .myprogres-bootstrap:after {
+  content: "AVANZADO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+body.dark .myprogres-js {
+  transform: rotate(135deg);
+  background: linear-gradient(0deg, #e5ff00 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-js:before, body.dark .myprogres-js:after {
+  color: #e5ff00;
+  -webkit-text-stroke: 0.5px #e5ff00;
+}
+body.dark .myprogres-js:before {
+  content: "JS";
+  background: #171615 content-box;
+  transform: rotate(-135deg);
+}
+body.dark .myprogres-js:after {
+  content: "AVANZADO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+body.dark .myprogres-java {
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #0077ff 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-java:before, body.dark .myprogres-java:after {
+  color: #0077ff;
+  -webkit-text-stroke: 0.5px #0077ff;
+}
+body.dark .myprogres-java:before {
+  content: "JAVA";
+  background: #171615 content-box;
+  transform: rotate(-90deg);
+}
+body.dark .myprogres-java:after {
+  content: "INTERMEDIO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-90deg);
+}
+
+body.dark .myprogres-phyton {
+  transform: rotate(45deg);
+  background: linear-gradient(0deg, #eeff00 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-phyton:before, body.dark .myprogres-phyton:after {
+  color: #eeff00;
+  -webkit-text-stroke: 0.5px #eeff00;
+}
+body.dark .myprogres-phyton:before {
+  content: "PYTHON";
+  background: #171615 content-box;
+  transform: rotate(-45deg);
+}
+body.dark .myprogres-phyton:after {
+  content: "PRINCIPIANTE";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-45deg);
+}
+
+body.dark .myprogres-react {
+  transform: rotate(18deg);
+  background: linear-gradient(0deg, #08e926 50%, black 50%);
+  opacity: 0.5;
+}
+body.dark .myprogres-react:before, body.dark .myprogres-react:after {
+  color: #08e926;
+  -webkit-text-stroke: 0.5px #08e926;
+}
+body.dark .myprogres-react:before {
+  content: "REACT";
+  background: #171615 content-box;
+  transform: rotate(-18deg);
+}
+body.dark .myprogres-react:after {
+  content: "PROXIMAMENTE";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-18deg);
+}
+
+body.dark .myprogres-windows {
+  transform: rotate(135deg);
+  background: linear-gradient(0deg, #0988f0 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-windows:before, body.dark .myprogres-windows:after {
+  color: #0988f0;
+  -webkit-text-stroke: 0.5px #0988f0;
+}
+body.dark .myprogres-windows:before {
+  content: "WINDOWS";
+  background: #171615 content-box;
+  transform: rotate(-135deg);
+}
+body.dark .myprogres-windows:after {
+  content: "AVANZADO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+body.dark .myprogres-linux {
+  transform: rotate(45deg);
+  background: linear-gradient(0deg, #e908de 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-linux:before, body.dark .myprogres-linux:after {
+  color: #e908de;
+  -webkit-text-stroke: 0.5px #e908de;
+}
+body.dark .myprogres-linux:before {
+  content: "LINUX";
+  background: #171615 content-box;
+  transform: rotate(-45deg);
+}
+body.dark .myprogres-linux:after {
+  content: "PRINCIPIANTE";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-45deg);
+}
+
+body.dark .myprogres-android {
+  transform: rotate(135deg);
+  background: linear-gradient(0deg, #00ff22 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-android:before, body.dark .myprogres-android:after {
+  color: #00ff22;
+  -webkit-text-stroke: 0.5px #00ff22;
+}
+body.dark .myprogres-android:before {
+  content: "ANDROID";
+  background: #171615 content-box;
+  transform: rotate(-135deg);
+}
+body.dark .myprogres-android:after {
+  content: "AVANZADO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+body.dark .myprogres-ios {
+  transform: rotate(18deg);
+  background: linear-gradient(0deg, #e90808 50%, black 50%);
+  opacity: 0.5;
+}
+body.dark .myprogres-ios:before, body.dark .myprogres-ios:after {
+  color: #e90808;
+  -webkit-text-stroke: 0.5px #e90808;
+}
+body.dark .myprogres-ios:before {
+  content: "IOS";
+  background: #171615 content-box;
+  transform: rotate(-18deg);
+}
+body.dark .myprogres-ios:after {
+  content: "PROXIMAMENTE";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-18deg);
+}
+
+body.dark .myprogres-spanish {
+  transform: rotate(135deg);
+  background: linear-gradient(0deg, #00ffff 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-spanish:before, body.dark .myprogres-spanish:after {
+  color: #00ffff;
+  -webkit-text-stroke: 0.5px #00ffff;
+}
+body.dark .myprogres-spanish:before {
+  content: "ESPAÑOL";
+  background: #171615 content-box;
+  transform: rotate(-135deg);
+}
+body.dark .myprogres-spanish:after {
+  content: "AVANZADO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+body.dark .myprogres-english {
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #e98008 50%, black 50%);
+  opacity: 1;
+}
+body.dark .myprogres-english:before, body.dark .myprogres-english:after {
+  color: #e98008;
+  -webkit-text-stroke: 0.5px #e98008;
+}
+body.dark .myprogres-english:before {
+  content: "INGLÉS";
+  background: #171615 content-box;
+  transform: rotate(-90deg);
+}
+body.dark .myprogres-english:after {
+  content: "INTERMEDIO";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-90deg);
+}
+
+/*# sourceMappingURL=dark_teme.css.map */
