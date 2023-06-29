@@ -1,11 +1,21 @@
-$my_color1: #00CDAB;
+$my_color1: #2980B9;
 $my_color2: white;
-$my_color3: blue;
+$my_color3: #00FF00;
 $my_color4: black;
+$my_color5: blue;
 
 @font-face {
     font-family: alex-brush;
     src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+.font-text {
+    font-family: ubuntu;
 }
 
 #mi_navbar {
@@ -13,17 +23,21 @@ $my_color4: black;
     background: $my_color1;
 }
 
-#navbarSupportedContent > ul > li > a {
+#navbarSupportedContent>ul>li>a {
     color: $my_color2;
     font-size: large;
 }
 
-#navbarSupportedContent > ul > li > a:hover { 
+#navbarSupportedContent>ul>li>a:hover {
     color: $my_color3;
 }
 
-#label-junior:hover {
+#label-developer {
     color: $my_color2;
+}
+
+#label-developer:hover {
+    color: $my_color3;
 }
 
 .titles1 {
@@ -48,10 +62,10 @@ $my_color4: black;
 }
 
 #about_me {
-    height: 100vh; 
+    height: 100vh;
 }
 
-.my_name > p {
+.my_name>p {
     background: linear-gradient(to right, $my_color2 20%, $my_color1);
     font-family: alex-brush;
     text-shadow: 0 0 5px $my_color2;
@@ -59,12 +73,12 @@ $my_color4: black;
     font-size: 80px;
 }
 
-.my_name > h2 {
+.my_name>h2 {
     text-shadow: 0 0 5px $my_color2;
     color: $my_color4;
 }
 
-#imagen_fondo{
+#imagen_fondo {
     position: absolute;
     margin: 0px;
     height: 100vh;
@@ -81,10 +95,12 @@ $my_color4: black;
     font-size: large;
 }
 
+/*
 .featured-text {
     color: $my_color3;
+    text-shadow: 2px 2px 0px black;
 }
-
+*/
 .collage {
     border: 2px solid $my_color3;
     background-color: $my_color1;
@@ -109,24 +125,25 @@ $my_color4: black;
     background-color: $my_color3;
 }
 
-.adaptable-text  {
+.adaptable-text {
     color: $my_color4;
 }
 
 .adaptable-text2 {
-    color: $my_color3;
+    color: $my_color5;
     text-decoration: underline;
 }
 
-.cel7 > a {
+.cel7>a {
     color: white;
 }
 
-.cel7 > a:hover{
+.cel7>a:hover {
     color: $my_color3;
 }
 
 .circular-progress {
+
     &,
     &:before,
     &:after {
@@ -149,6 +166,7 @@ $my_color4: black;
         font-size: 1.5rem;
         line-height: 7rem;
     }
+
     &:after {
         line-height: 15rem;
     }
@@ -170,12 +188,13 @@ $my_color4: black;
         color: $color;
         -webkit-text-stroke: .5px $my_color4;
     }
-    
+
     &:before {
         content: "#{$skill}";
         background: $bgcolor content-box;
         transform: rotate(-#{$progress});
     }
+
     &:after {
         content: "#{$advanced}";
         background: linear-gradient(transparent 50%, $bgcolor 50%);
@@ -390,4 +409,3 @@ $my_color4: black;
     transition-duration: .5s;
     transition-timing-function: ease-out;
 }
-

@@ -11,11 +11,11 @@ body.dark .navbar-toggler {
   color: white;
 }
 
-body.dark #label-junior {
+body.dark #label-developer {
   color: white;
 }
 
-body.dark #label-junior:hover {
+body.dark #label-developer:hover {
   color: blueviolet;
 }
 
@@ -47,7 +47,7 @@ body.dark #about_me2 {
 }
 
 body.dark .featured-text {
-  color: blueviolet;
+  color: white;
 }
 
 body.dark .collage {
