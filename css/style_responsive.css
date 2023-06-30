@@ -1,4 +1,7 @@
 @media (min-width: 992px) {
+  #about_me2 {
+    height: 100vh;
+  }
   .collage {
     border-radius: 200px 0 0 200px;
     width: 90%;
@@ -47,6 +50,9 @@
   }
 }
 @media (max-width: 991px) {
+  #about_me2 {
+    height: auto;
+  }
   .my_name > p {
     font-size: 50px;
   }
@@ -102,6 +108,9 @@
 @media (max-width: 539px) {
   .my_name > p {
     font-size: 50px;
+  }
+  #about_me2 {
+    height: auto;
   }
   .collage {
     border-radius: 0 130px 130px 0;

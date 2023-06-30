@@ -2,7 +2,7 @@ $my_color1: #2980B9;
 $my_color2: white;
 $my_color3: #00FF00;
 $my_color4: black;
-$my_color5: blue;
+$my_color5: #eeff00;
 
 @font-face {
     font-family: alex-brush;
@@ -21,6 +21,10 @@ $my_color5: blue;
 #mi_navbar {
     border-bottom: 1px solid $my_color2;
     background: $my_color1;
+}
+
+.navbar-toggler {
+    color: $my_color2;
 }
 
 #navbarSupportedContent>ul>li>a {
@@ -89,21 +93,14 @@ $my_color5: blue;
 }
 
 #about_me2 {
-    height: auto;
-    background: linear-gradient(to bottom, $my_color1, $my_color2);
+    background: $my_color1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
-/*
-.featured-text {
-    color: $my_color3;
-    text-shadow: 2px 2px 0px black;
-}
-*/
 .collage {
-    border: 2px solid $my_color3;
-    background-color: $my_color1;
+    border: 2px solid $my_color4;
+    background-color: $my_color4;
 }
 
 .picture_profile {
@@ -126,7 +123,7 @@ $my_color5: blue;
 }
 
 .adaptable-text {
-    color: $my_color4;
+    color: $my_color2;
 }
 
 .adaptable-text2 {
@@ -140,6 +137,10 @@ $my_color5: blue;
 
 .cel7>a:hover {
     color: $my_color3;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    background: $my_color1;
 }
 
 .circular-progress {
@@ -186,7 +187,6 @@ $my_color5: blue;
     &:before,
     &:after {
         color: $color;
-        -webkit-text-stroke: .5px $my_color4;
     }
 
     &:before {
@@ -246,7 +246,7 @@ $my_color5: blue;
     $percent: 75;
     $skill: "JS";
     $advanced: "AVANZADO";
-    $color: #e5ff00;
+    $color: #B7950B;
     $bgcolor: $my_color2;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
@@ -266,7 +266,7 @@ $my_color5: blue;
     $percent: 25;
     $skill: "PYTHON";
     $advanced: "PRINCIPIANTE";
-    $color: #eeff00;
+    $color: #B7950B;
     $bgcolor: $my_color2;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);

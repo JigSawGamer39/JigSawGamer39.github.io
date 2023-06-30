@@ -12,10 +12,6 @@ body.dark #mi_navbar {
     background: $color1;
 }
 
-body.dark .navbar-toggler {
-    color: white;
-}
-
 body.dark #label-developer {
     color: $color2;
 }
@@ -51,10 +47,6 @@ body.dark #about_me2 {
     background: $color1;
 }
 
-body.dark .featured-text {
-    color: $color2;
-}
-
 body.dark .collage {
     border: 2px solid $color3;
     background: $color1;
@@ -81,16 +73,16 @@ body.dark .close-modal {
     color: $color2;
 }
 
-body.dark .adaptable-text {
-    color: $color2;
-}
-
 body.dark .adaptable-text2 {
     color: $color5;
 }
 
 body.dark .cel7>a:hover {
     color: $color3;
+}
+
+body.dark .modal-header, body.dark .modal-body, body.dark .modal-footer {
+    background: $color1;
 }
 
 

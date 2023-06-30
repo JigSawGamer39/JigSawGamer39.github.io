@@ -7,10 +7,6 @@ body.dark #mi_navbar {
   background: #171615;
 }
 
-body.dark .navbar-toggler {
-  color: white;
-}
-
 body.dark #label-developer {
   color: white;
 }
@@ -46,10 +42,6 @@ body.dark #about_me2 {
   background: #171615;
 }
 
-body.dark .featured-text {
-  color: white;
-}
-
 body.dark .collage {
   border: 2px solid blueviolet;
   background: #171615;
@@ -76,16 +68,16 @@ body.dark .close-modal {
   color: white;
 }
 
-body.dark .adaptable-text {
-  color: white;
-}
-
 body.dark .adaptable-text2 {
   color: #eeff00;
 }
 
 body.dark .cel7 > a:hover {
   color: blueviolet;
+}
+
+body.dark .modal-header, body.dark .modal-body, body.dark .modal-footer {
+  background: #171615;
 }
 
 .circular-progress, .circular-progress:before, .circular-progress:after {
