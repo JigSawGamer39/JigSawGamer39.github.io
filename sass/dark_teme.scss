@@ -1,7 +1,7 @@
 $color1: #171615;
-$color2: white;
-$color3: blueviolet;
-$color4: black;
+$color2: #FFFFFF;
+$color3: #8A2BE2;
+$color4: #000000;
 $color5: #eeff00;
 
 body.dark {
@@ -50,6 +50,14 @@ body.dark #about_me2 {
 body.dark .collage {
     border: 2px solid $color3;
     background: $color1;
+}
+
+body.dark .btn-download {
+    background: $color2;
+}
+
+body.dark .btn-download:hover {
+    background: $color3;
 }
 
 body.dark .sub-title {
@@ -150,17 +158,17 @@ body.dark .myprogres-c {
     $percent: 50;
     $skill: "C#";
     $advanced: "INTERMEDIO";
-    $color: #4c00ff;
+    $color: #2471A3;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
 }
 
 body.dark .myprogres-php {
-    $percent: 75;
+    $percent: 50;
     $skill: "PHP";
-    $advanced: "AVANZADO";
-    $color: #a200ff;
+    $advanced: "INTERMEDIO";
+    $color: #884EA0;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
@@ -180,26 +188,26 @@ body.dark .myprogres-bootstrap {
     $percent: 75;
     $skill: "BOOTSTRAP";
     $advanced: "AVANZADO";
-    $color: #0077ff;
+    $color: #5B2C6F;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
 }
 
 body.dark .myprogres-js {
-    $percent: 75;
+    $percent: 50;
     $skill: "JS";
-    $advanced: "AVANZADO";
-    $color: #e5ff00;
+    $advanced: "INTERMEDIO";
+    $color: #D4AC0D;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
 }
 
 body.dark .myprogres-java {
-    $percent: 50;
+    $percent: 25;
     $skill: "JAVA";
-    $advanced: "INTERMEDIO";
+    $advanced: "PRINCIPIANTE";
     $color: #0077ff;
     $bgcolor: $color1;
     $active: 1;
@@ -210,7 +218,7 @@ body.dark .myprogres-phyton {
     $percent: 25;
     $skill: "PYTHON";
     $advanced: "PRINCIPIANTE";
-    $color: #eeff00;
+    $color: #AF601A;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
@@ -250,7 +258,7 @@ body.dark .myprogres-android {
     $percent: 75;
     $skill: "ANDROID";
     $advanced: "AVANZADO";
-    $color: #00ff22;
+    $color: #2ECC71;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
@@ -270,7 +278,7 @@ body.dark .myprogres-spanish {
     $percent: 75;
     $skill: "ESPAÑOL";
     $advanced: "AVANZADO";
-    $color: #00ffff;
+    $color: #1ABC9C;
     $bgcolor: $color1;
     $active: 1;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
@@ -283,5 +291,15 @@ body.dark .myprogres-english {
     $color: #e98008;
     $bgcolor: $color1;
     $active: 1;
+    @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
+}
+
+body.dark .myprogres-japanese {
+    $percent: 10;
+    $skill: "JAPONES";
+    $advanced: "PROXIMAMENTE";
+    $color: #CB4335;
+    $bgcolor: $color1;
+    $active: .2;
     @include circular_progress($percent, $skill, $advanced, $color, $bgcolor, $active);
 }

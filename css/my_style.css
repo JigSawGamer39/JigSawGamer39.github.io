@@ -12,16 +12,16 @@
 }
 
 #mi_navbar {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #FFFFFF;
   background: #2980B9;
 }
 
 .navbar-toggler {
-  color: white;
+  color: #FFFFFF;
 }
 
 #navbarSupportedContent > ul > li > a {
-  color: white;
+  color: #FFFFFF;
   font-size: large;
 }
 
@@ -30,7 +30,7 @@
 }
 
 #label-developer {
-  color: white;
+  color: #FFFFFF;
 }
 
 #label-developer:hover {
@@ -39,22 +39,22 @@
 
 .titles1 {
   width: fit-content;
-  color: black;
-  background: white;
+  color: #000000;
+  background: #FFFFFF;
   border-radius: 0 30px 30px 0;
 }
 
 .titles2 {
   width: fit-content;
-  color: white;
+  color: #FFFFFF;
   background: #2980B9;
   border-radius: 30px 30px 30px 30px;
 }
 
 .titles3 {
   width: fit-content;
-  color: black;
-  background: white;
+  color: #000000;
+  background: #FFFFFF;
   border-radius: 30px 0px 0px 30px;
 }
 
@@ -63,16 +63,16 @@
 }
 
 .my_name > p {
-  background: linear-gradient(to right, white 20%, #2980B9);
+  background: linear-gradient(to right, #FFFFFF 20%, #2980B9);
   font-family: alex-brush;
-  text-shadow: 0 0 5px white;
-  color: black;
+  text-shadow: 0 0 5px #FFFFFF;
+  color: #000000;
   font-size: 80px;
 }
 
 .my_name > h2 {
-  text-shadow: 0 0 5px white;
-  color: black;
+  text-shadow: 0 0 5px #FFFFFF;
+  color: #000000;
 }
 
 #imagen_fondo {
@@ -92,8 +92,16 @@
 }
 
 .collage {
-  border: 2px solid black;
-  background-color: black;
+  border: 2px solid #000000;
+  background-color: #000000;
+}
+
+.btn-download {
+  background: #FFFFFF;
+}
+
+.btn-download:hover {
+  background: #00FF00;
 }
 
 .picture_profile {
@@ -106,17 +114,17 @@
 }
 
 .my-buttons {
-  color: white;
+  color: #FFFFFF;
   background-color: #2980B9;
 }
 
 .my-buttons:hover {
-  color: white;
+  color: #FFFFFF;
   background-color: #00FF00;
 }
 
 .adaptable-text {
-  color: white;
+  color: #FFFFFF;
 }
 
 .adaptable-text2 {
@@ -159,45 +167,45 @@
 
 .myprogres-c {
   transform: rotate(90deg);
-  background: linear-gradient(0deg, #4c00ff 50%, black 50%);
+  background: linear-gradient(0deg, #2471A3 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-c:before, .myprogres-c:after {
-  color: #4c00ff;
+  color: #2471A3;
 }
 .myprogres-c:before {
   content: "C#";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-90deg);
 }
 .myprogres-c:after {
   content: "INTERMEDIO";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-90deg);
 }
 
 .myprogres-php {
-  transform: rotate(135deg);
-  background: linear-gradient(0deg, #a200ff 50%, black 50%);
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #884EA0 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-php:before, .myprogres-php:after {
-  color: #a200ff;
+  color: #884EA0;
 }
 .myprogres-php:before {
   content: "PHP";
-  background: white content-box;
-  transform: rotate(-135deg);
+  background: #FFFFFF content-box;
+  transform: rotate(-90deg);
 }
 .myprogres-php:after {
-  content: "AVANZADO";
-  background: linear-gradient(transparent 50%, white 50%);
-  transform: scale(1.1) rotate(-135deg);
+  content: "INTERMEDIO";
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
+  transform: scale(1.1) rotate(-90deg);
 }
 
 .myprogres-sass {
   transform: rotate(45deg);
-  background: linear-gradient(0deg, #cd0000 50%, black 50%);
+  background: linear-gradient(0deg, #cd0000 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-sass:before, .myprogres-sass:after {
@@ -205,56 +213,56 @@
 }
 .myprogres-sass:before {
   content: "SASS";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-45deg);
 }
 .myprogres-sass:after {
   content: "PRINCIPIANTE";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-45deg);
 }
 
 .myprogres-bootstrap {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #0077ff 50%, black 50%);
+  background: linear-gradient(0deg, #5B2C6F 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-bootstrap:before, .myprogres-bootstrap:after {
-  color: #0077ff;
+  color: #5B2C6F;
 }
 .myprogres-bootstrap:before {
   content: "BOOTSTRAP";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-135deg);
 }
 .myprogres-bootstrap:after {
   content: "AVANZADO";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-135deg);
 }
 
 .myprogres-js {
-  transform: rotate(135deg);
-  background: linear-gradient(0deg, #B7950B 50%, black 50%);
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #D4AC0D 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-js:before, .myprogres-js:after {
-  color: #B7950B;
+  color: #D4AC0D;
 }
 .myprogres-js:before {
   content: "JS";
-  background: white content-box;
-  transform: rotate(-135deg);
+  background: #FFFFFF content-box;
+  transform: rotate(-90deg);
 }
 .myprogres-js:after {
-  content: "AVANZADO";
-  background: linear-gradient(transparent 50%, white 50%);
-  transform: scale(1.1) rotate(-135deg);
+  content: "INTERMEDIO";
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
+  transform: scale(1.1) rotate(-90deg);
 }
 
 .myprogres-java {
-  transform: rotate(90deg);
-  background: linear-gradient(0deg, #0077ff 50%, black 50%);
+  transform: rotate(45deg);
+  background: linear-gradient(0deg, #0077ff 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-java:before, .myprogres-java:after {
@@ -262,37 +270,37 @@
 }
 .myprogres-java:before {
   content: "JAVA";
-  background: white content-box;
-  transform: rotate(-90deg);
+  background: #FFFFFF content-box;
+  transform: rotate(-45deg);
 }
 .myprogres-java:after {
-  content: "INTERMEDIO";
-  background: linear-gradient(transparent 50%, white 50%);
-  transform: scale(1.1) rotate(-90deg);
+  content: "PRINCIPIANTE";
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
+  transform: scale(1.1) rotate(-45deg);
 }
 
 .myprogres-phyton {
   transform: rotate(45deg);
-  background: linear-gradient(0deg, #B7950B 50%, black 50%);
+  background: linear-gradient(0deg, #AF601A 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-phyton:before, .myprogres-phyton:after {
-  color: #B7950B;
+  color: #AF601A;
 }
 .myprogres-phyton:before {
   content: "PYTHON";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-45deg);
 }
 .myprogres-phyton:after {
   content: "PRINCIPIANTE";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-45deg);
 }
 
 .myprogres-react {
   transform: rotate(18deg);
-  background: linear-gradient(0deg, #08e926 50%, black 50%);
+  background: linear-gradient(0deg, #08e926 50%, #000000 50%);
   opacity: 0.2;
 }
 .myprogres-react:before, .myprogres-react:after {
@@ -300,18 +308,18 @@
 }
 .myprogres-react:before {
   content: "REACT";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-18deg);
 }
 .myprogres-react:after {
   content: "PROXIMAMENTE";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-18deg);
 }
 
 .myprogres-windows {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #0988f0 50%, black 50%);
+  background: linear-gradient(0deg, #0988f0 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-windows:before, .myprogres-windows:after {
@@ -319,18 +327,18 @@
 }
 .myprogres-windows:before {
   content: "WINDOWS";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-135deg);
 }
 .myprogres-windows:after {
   content: "AVANZADO";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-135deg);
 }
 
 .myprogres-linux {
   transform: rotate(45deg);
-  background: linear-gradient(0deg, #e908de 50%, black 50%);
+  background: linear-gradient(0deg, #e908de 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-linux:before, .myprogres-linux:after {
@@ -338,37 +346,37 @@
 }
 .myprogres-linux:before {
   content: "LINUX";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-45deg);
 }
 .myprogres-linux:after {
   content: "PRINCIPIANTE";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-45deg);
 }
 
 .myprogres-android {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #00ff22 50%, black 50%);
+  background: linear-gradient(0deg, #2ECC71 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-android:before, .myprogres-android:after {
-  color: #00ff22;
+  color: #2ECC71;
 }
 .myprogres-android:before {
   content: "ANDROID";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-135deg);
 }
 .myprogres-android:after {
   content: "AVANZADO";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-135deg);
 }
 
 .myprogres-ios {
   transform: rotate(18deg);
-  background: linear-gradient(0deg, #e90808 50%, black 50%);
+  background: linear-gradient(0deg, #e90808 50%, #000000 50%);
   opacity: 0.2;
 }
 .myprogres-ios:before, .myprogres-ios:after {
@@ -376,37 +384,37 @@
 }
 .myprogres-ios:before {
   content: "IOS";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-18deg);
 }
 .myprogres-ios:after {
   content: "PROXIMAMENTE";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-18deg);
 }
 
 .myprogres-spanish {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #00ffff 50%, black 50%);
+  background: linear-gradient(0deg, #1ABC9C 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-spanish:before, .myprogres-spanish:after {
-  color: #00ffff;
+  color: #1ABC9C;
 }
 .myprogres-spanish:before {
   content: "ESPAÑOL";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-135deg);
 }
 .myprogres-spanish:after {
   content: "AVANZADO";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-135deg);
 }
 
 .myprogres-english {
   transform: rotate(90deg);
-  background: linear-gradient(0deg, #e98008 50%, black 50%);
+  background: linear-gradient(0deg, #e98008 50%, #000000 50%);
   opacity: 1;
 }
 .myprogres-english:before, .myprogres-english:after {
@@ -414,13 +422,32 @@
 }
 .myprogres-english:before {
   content: "INGLÉS";
-  background: white content-box;
+  background: #FFFFFF content-box;
   transform: rotate(-90deg);
 }
 .myprogres-english:after {
   content: "INTERMEDIO";
-  background: linear-gradient(transparent 50%, white 50%);
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
   transform: scale(1.1) rotate(-90deg);
+}
+
+.myprogres-japanese {
+  transform: rotate(18deg);
+  background: linear-gradient(0deg, #CB4335 50%, #000000 50%);
+  opacity: 0.2;
+}
+.myprogres-japanese:before, .myprogres-japanese:after {
+  color: #CB4335;
+}
+.myprogres-japanese:before {
+  content: "JAPONES";
+  background: #FFFFFF content-box;
+  transform: rotate(-18deg);
+}
+.myprogres-japanese:after {
+  content: "PROXIMAMENTE";
+  background: linear-gradient(transparent 50%, #FFFFFF 50%);
+  transform: scale(1.1) rotate(-18deg);
 }
 
 .darkModeSwitch {
@@ -434,8 +461,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px;
-  border: 1px solid black;
-  background: white;
+  border: 1px solid #000000;
+  background: #FFFFFF;
 }
 
 .darkModeSwitch span {
@@ -445,7 +472,7 @@
   display: block;
   background: transparent;
   margin: 0px;
-  color: black;
+  color: #000000;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
@@ -458,7 +485,7 @@
   position: absolute;
   border-radius: 100%;
   content: "";
-  background: black;
+  background: #000000;
   left: 0;
   right: 50%;
   transition-property: all;
@@ -467,12 +494,12 @@
 }
 
 .darkModeSwitch.active {
-  background: black;
+  background: #000000;
   border: 1px solid #00FF00;
 }
 
 .darkModeSwitch.active span {
-  color: white;
+  color: #FFFFFF;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;

@@ -8,33 +8,33 @@ body.dark #mi_navbar {
 }
 
 body.dark #label-developer {
-  color: white;
+  color: #FFFFFF;
 }
 
 body.dark #label-developer:hover {
-  color: blueviolet;
+  color: #8A2BE2;
 }
 
 body.dark #navbarSupportedContent > ul > li > a:hover {
-  color: blueviolet;
+  color: #8A2BE2;
 }
 
 body.dark .my_name > p {
-  background: linear-gradient(to right, white 20%, #171615);
+  background: linear-gradient(to right, #FFFFFF 20%, #171615);
 }
 
 body.dark .titles1 {
-  background: white;
-  color: black;
+  background: #FFFFFF;
+  color: #000000;
 }
 
 body.dark .titles2 {
-  background: white;
+  background: #FFFFFF;
   color: #171615;
 }
 
 body.dark .titles3 {
-  background: white;
+  background: #FFFFFF;
   color: #171615;
 }
 
@@ -43,21 +43,29 @@ body.dark #about_me2 {
 }
 
 body.dark .collage {
-  border: 2px solid blueviolet;
+  border: 2px solid #8A2BE2;
   background: #171615;
 }
 
+body.dark .btn-download {
+  background: #FFFFFF;
+}
+
+body.dark .btn-download:hover {
+  background: #8A2BE2;
+}
+
 body.dark .sub-title {
-  color: white;
+  color: #FFFFFF;
 }
 
 body.dark #proyects {
-  background: black;
+  background: #000000;
 }
 
 body.dark .my-buttons {
-  background: blueviolet;
-  color: black;
+  background: #8A2BE2;
+  color: #000000;
 }
 
 body.dark .modal-content {
@@ -65,7 +73,7 @@ body.dark .modal-content {
 }
 
 body.dark .close-modal {
-  color: white;
+  color: #FFFFFF;
 }
 
 body.dark .adaptable-text2 {
@@ -73,7 +81,7 @@ body.dark .adaptable-text2 {
 }
 
 body.dark .cel7 > a:hover {
-  color: blueviolet;
+  color: #8A2BE2;
 }
 
 body.dark .modal-header, body.dark .modal-body, body.dark .modal-footer {
@@ -103,12 +111,12 @@ body.dark .modal-header, body.dark .modal-body, body.dark .modal-footer {
 
 body.dark .myprogres-c {
   transform: rotate(90deg);
-  background: linear-gradient(0deg, #4c00ff 50%, black 50%);
+  background: linear-gradient(0deg, #2471A3 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-c:before, body.dark .myprogres-c:after {
-  color: #4c00ff;
-  -webkit-text-stroke: 0.5px #4c00ff;
+  color: #2471A3;
+  -webkit-text-stroke: 0.5px #2471A3;
 }
 body.dark .myprogres-c:before {
   content: "C#";
@@ -122,28 +130,28 @@ body.dark .myprogres-c:after {
 }
 
 body.dark .myprogres-php {
-  transform: rotate(135deg);
-  background: linear-gradient(0deg, #a200ff 50%, black 50%);
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #884EA0 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-php:before, body.dark .myprogres-php:after {
-  color: #a200ff;
-  -webkit-text-stroke: 0.5px #a200ff;
+  color: #884EA0;
+  -webkit-text-stroke: 0.5px #884EA0;
 }
 body.dark .myprogres-php:before {
   content: "PHP";
   background: #171615 content-box;
-  transform: rotate(-135deg);
+  transform: rotate(-90deg);
 }
 body.dark .myprogres-php:after {
-  content: "AVANZADO";
+  content: "INTERMEDIO";
   background: linear-gradient(transparent 50%, #171615 50%);
-  transform: scale(1.1) rotate(-135deg);
+  transform: scale(1.1) rotate(-90deg);
 }
 
 body.dark .myprogres-sass {
   transform: rotate(45deg);
-  background: linear-gradient(0deg, #cd0000 50%, black 50%);
+  background: linear-gradient(0deg, #cd0000 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-sass:before, body.dark .myprogres-sass:after {
@@ -163,12 +171,12 @@ body.dark .myprogres-sass:after {
 
 body.dark .myprogres-bootstrap {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #0077ff 50%, black 50%);
+  background: linear-gradient(0deg, #5B2C6F 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-bootstrap:before, body.dark .myprogres-bootstrap:after {
-  color: #0077ff;
-  -webkit-text-stroke: 0.5px #0077ff;
+  color: #5B2C6F;
+  -webkit-text-stroke: 0.5px #5B2C6F;
 }
 body.dark .myprogres-bootstrap:before {
   content: "BOOTSTRAP";
@@ -182,28 +190,28 @@ body.dark .myprogres-bootstrap:after {
 }
 
 body.dark .myprogres-js {
-  transform: rotate(135deg);
-  background: linear-gradient(0deg, #e5ff00 50%, black 50%);
+  transform: rotate(90deg);
+  background: linear-gradient(0deg, #D4AC0D 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-js:before, body.dark .myprogres-js:after {
-  color: #e5ff00;
-  -webkit-text-stroke: 0.5px #e5ff00;
+  color: #D4AC0D;
+  -webkit-text-stroke: 0.5px #D4AC0D;
 }
 body.dark .myprogres-js:before {
   content: "JS";
   background: #171615 content-box;
-  transform: rotate(-135deg);
+  transform: rotate(-90deg);
 }
 body.dark .myprogres-js:after {
-  content: "AVANZADO";
+  content: "INTERMEDIO";
   background: linear-gradient(transparent 50%, #171615 50%);
-  transform: scale(1.1) rotate(-135deg);
+  transform: scale(1.1) rotate(-90deg);
 }
 
 body.dark .myprogres-java {
-  transform: rotate(90deg);
-  background: linear-gradient(0deg, #0077ff 50%, black 50%);
+  transform: rotate(45deg);
+  background: linear-gradient(0deg, #0077ff 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-java:before, body.dark .myprogres-java:after {
@@ -213,22 +221,22 @@ body.dark .myprogres-java:before, body.dark .myprogres-java:after {
 body.dark .myprogres-java:before {
   content: "JAVA";
   background: #171615 content-box;
-  transform: rotate(-90deg);
+  transform: rotate(-45deg);
 }
 body.dark .myprogres-java:after {
-  content: "INTERMEDIO";
+  content: "PRINCIPIANTE";
   background: linear-gradient(transparent 50%, #171615 50%);
-  transform: scale(1.1) rotate(-90deg);
+  transform: scale(1.1) rotate(-45deg);
 }
 
 body.dark .myprogres-phyton {
   transform: rotate(45deg);
-  background: linear-gradient(0deg, #eeff00 50%, black 50%);
+  background: linear-gradient(0deg, #AF601A 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-phyton:before, body.dark .myprogres-phyton:after {
-  color: #eeff00;
-  -webkit-text-stroke: 0.5px #eeff00;
+  color: #AF601A;
+  -webkit-text-stroke: 0.5px #AF601A;
 }
 body.dark .myprogres-phyton:before {
   content: "PYTHON";
@@ -243,7 +251,7 @@ body.dark .myprogres-phyton:after {
 
 body.dark .myprogres-react {
   transform: rotate(18deg);
-  background: linear-gradient(0deg, #08e926 50%, black 50%);
+  background: linear-gradient(0deg, #08e926 50%, #000000 50%);
   opacity: 0.5;
 }
 body.dark .myprogres-react:before, body.dark .myprogres-react:after {
@@ -263,7 +271,7 @@ body.dark .myprogres-react:after {
 
 body.dark .myprogres-windows {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #0988f0 50%, black 50%);
+  background: linear-gradient(0deg, #0988f0 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-windows:before, body.dark .myprogres-windows:after {
@@ -283,7 +291,7 @@ body.dark .myprogres-windows:after {
 
 body.dark .myprogres-linux {
   transform: rotate(45deg);
-  background: linear-gradient(0deg, #e908de 50%, black 50%);
+  background: linear-gradient(0deg, #e908de 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-linux:before, body.dark .myprogres-linux:after {
@@ -303,12 +311,12 @@ body.dark .myprogres-linux:after {
 
 body.dark .myprogres-android {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #00ff22 50%, black 50%);
+  background: linear-gradient(0deg, #2ECC71 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-android:before, body.dark .myprogres-android:after {
-  color: #00ff22;
-  -webkit-text-stroke: 0.5px #00ff22;
+  color: #2ECC71;
+  -webkit-text-stroke: 0.5px #2ECC71;
 }
 body.dark .myprogres-android:before {
   content: "ANDROID";
@@ -323,7 +331,7 @@ body.dark .myprogres-android:after {
 
 body.dark .myprogres-ios {
   transform: rotate(18deg);
-  background: linear-gradient(0deg, #e90808 50%, black 50%);
+  background: linear-gradient(0deg, #e90808 50%, #000000 50%);
   opacity: 0.5;
 }
 body.dark .myprogres-ios:before, body.dark .myprogres-ios:after {
@@ -343,12 +351,12 @@ body.dark .myprogres-ios:after {
 
 body.dark .myprogres-spanish {
   transform: rotate(135deg);
-  background: linear-gradient(0deg, #00ffff 50%, black 50%);
+  background: linear-gradient(0deg, #1ABC9C 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-spanish:before, body.dark .myprogres-spanish:after {
-  color: #00ffff;
-  -webkit-text-stroke: 0.5px #00ffff;
+  color: #1ABC9C;
+  -webkit-text-stroke: 0.5px #1ABC9C;
 }
 body.dark .myprogres-spanish:before {
   content: "ESPAÑOL";
@@ -363,7 +371,7 @@ body.dark .myprogres-spanish:after {
 
 body.dark .myprogres-english {
   transform: rotate(90deg);
-  background: linear-gradient(0deg, #e98008 50%, black 50%);
+  background: linear-gradient(0deg, #e98008 50%, #000000 50%);
   opacity: 1;
 }
 body.dark .myprogres-english:before, body.dark .myprogres-english:after {
@@ -379,6 +387,26 @@ body.dark .myprogres-english:after {
   content: "INTERMEDIO";
   background: linear-gradient(transparent 50%, #171615 50%);
   transform: scale(1.1) rotate(-90deg);
+}
+
+body.dark .myprogres-japanese {
+  transform: rotate(18deg);
+  background: linear-gradient(0deg, #CB4335 50%, #000000 50%);
+  opacity: 0.2;
+}
+body.dark .myprogres-japanese:before, body.dark .myprogres-japanese:after {
+  color: #CB4335;
+  -webkit-text-stroke: 0.5px #CB4335;
+}
+body.dark .myprogres-japanese:before {
+  content: "JAPONES";
+  background: #171615 content-box;
+  transform: rotate(-18deg);
+}
+body.dark .myprogres-japanese:after {
+  content: "PROXIMAMENTE";
+  background: linear-gradient(transparent 50%, #171615 50%);
+  transform: scale(1.1) rotate(-18deg);
 }
 
 /*# sourceMappingURL=dark_teme.css.map */
